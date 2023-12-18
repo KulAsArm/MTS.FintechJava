@@ -3,7 +3,7 @@ package purchase;
 import java.math.BigDecimal;
 
 /*
- * Класс для подсчета суммы покупок с учетом скидок
+ * Класс для хранения покупок
  * В классе есть три поля: кол-во вещей, цена и скидка
  * В классе реализованы сеттеры
  */
@@ -23,6 +23,7 @@ public class PurchaseAmount {
             throw new Exception("Проверьте правильность ввода данных!");
         }
     }
+
     public void setCountThings(int countThings) {
         this.countThings = countThings;
     }
