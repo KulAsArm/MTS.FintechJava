@@ -1,2 +1,4 @@
 rootProject.name = 'HW1'
+include 'src:main:Java'
+findProject(':src:main:Java')?.name = 'Java'
 
