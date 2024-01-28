@@ -3,6 +3,7 @@ package kindanimals;
 import animals.Predator;
 
 import java.math.BigDecimal;
+import java.time.LocalDate;
 
 public class Lion extends Predator {
     public Lion(String breed, String name, float cost, String character) {
@@ -25,5 +26,10 @@ public class Lion extends Predator {
     @Override
     public String getCharacter() {
         return character;
+    }
+
+    @Override
+    public LocalDate getBirthDate() {
+        return birthDate;
     }
 }
