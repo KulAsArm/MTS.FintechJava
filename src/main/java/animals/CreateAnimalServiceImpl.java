@@ -10,7 +10,6 @@ public class CreateAnimalServiceImpl implements CreateAnimalService {
         ArrayList<AbstractAnimal> listAnimals = new ArrayList<>();
         for(int i = 0; i < N; i++){
             AbstractAnimal animal = randomAnimal(i);
-            System.out.println(animal);
             listAnimals.add(animal);
         }
         return listAnimals;
@@ -21,7 +20,6 @@ public class CreateAnimalServiceImpl implements CreateAnimalService {
         ArrayList<AbstractAnimal> listAnimals = new ArrayList<>();
          do {
             AbstractAnimal animal = randomAnimal(i);
-            System.out.println(animal);
             listAnimals.add(animal);
             i++;
         } while (i <= 10);
